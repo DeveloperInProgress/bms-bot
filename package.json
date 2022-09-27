@@ -7,11 +7,15 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "chromedriver": "^79.0.2",
+    "chromedriver": "^105.0.1",
+    "discord.js": "^14.5.0",
     "gmail-send": "^1.8.10",
     "selenium-webdriver": "^4.0.0-alpha.4"
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
   }
 }
